@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dtu.jacopomattia.ghw.HovedMenuen"
+    tools:showIn="@layout/ny_opgave_layout">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ny_opgave_titel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:nestedScrollingEnabled="true"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:text="Opret Opgave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:id="@+id/ny_opgave_titel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textSize="36sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="Vælg fag"
+            android:layout_width="match_parent"
+            android:id="@+id/valg_af_fag"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:lineSpacingExtra="18sp"
+            android:layout_height="40dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:id="@+id/spinner_fag"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:text="Vælg semester"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/valg_af_semester"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/spinner_semester" />
+
+        <TextView
+            android:text="Vælg Institut"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/valg_af_institut"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/spinner_institut" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:inputType="textMultiLine"
+            android:background="@drawable/edit_text_frame"
+            android:lines="6"
+            android:ems="10"
+            android:id="@+id/opgave_beskrivelse"
+            android:text="Indsæt opgavebeskrivelse..."
+            android:cursorVisible="true"
+            android:onClick="onClick" />
+
+        <CheckBox
+            android:text="Upload Opgave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/picture_upload"
+            android:textAlignment="center"
+            android:checked="false"
+            android:onClick="onClick"
+            android:cursorVisible="false" />
+
+        <Button
+            android:text="ASK FOR HELP"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ask_for_help_button"
+            android:onClick="onClick (OpretOpgave)"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

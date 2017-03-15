@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="42dp"
+    android:layout_alignParentTop="true">
+
+        <TextView
+            android:text="Dine Opgaver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textfield_dine_opgaver"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="1. Opgave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dine_opgaver_1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="2. Opgave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dine_opgaver_2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="3. Opgave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dine_opgaver_3"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Nye Opgaver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textfield_nye_opgaver"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="1. Opgave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nye_opgaver_1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="2. Opgave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nye_opgaver_2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="3. Opgave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nye_opgaver_3"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Løste Opgaver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textfield_done_opgaver"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="1. Opgave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/done_opgaver_1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="2. Opgave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/done_opgaver_2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="3. Opgave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/done_opgaver_3"
+            android:textSize="18sp" />
+</LinearLayout>

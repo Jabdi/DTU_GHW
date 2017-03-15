@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="17dp"
+    android:paddingRight="17dp"
+    android:background="@color/colorApp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/loginView"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/email_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionThreshold="1"
+            android:background="@drawable/edittext_shape"
+            android:hint="Email address"
+
+            android:layout_marginTop="10dp"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textAlignment="center" />
+
+        <EditText android:id="@+id/password_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:background="@drawable/edittext_shape"
+            android:hint="Password"
+            android:padding="10dp"
+            android:textAlignment="center" />
+
+        <Button android:id="@+id/activity_login_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_button_shape"
+            android:padding="10dp"
+            android:layout_gravity="right"
+            android:textColor="#fffefe"
+            android:textAllCaps="false"
+            android:text="@string/login_button"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="Don't have account?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        android:layout_below="@+id/loginView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/register_btn_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/login_activity_register_btn"
+        android:background="@drawable/login_button_shape"
+        android:textColor="@color/colorWhite"
+        android:onClick="onClick" />
+
+</RelativeLayout>

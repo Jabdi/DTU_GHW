@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/fag_gruppe"
+            android:title="Fag"
+            android:visible="true"
+            app:showAsAction="always|withText"
+            android:actionLayout="@android:color/background_dark">
+            <menu >
+                <item
+                    android:id="@+id/fag1"
+                    android:title="fag1"
+                    android:visible="true"
+                    android:icon="@android:drawable/btn_radio"
+                    android:checkable="true"
+                    android:enabled="true" />
+                <item
+                    android:id="@+id/fag2"
+                    android:title="fag2"
+                    android:icon="@android:drawable/btn_radio"
+                    android:visible="true"
+                    android:checked="false"
+                    android:enabled="true"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/fag_vis_alle"
+                    android:title="Vis alle"
+                    android:icon="@android:drawable/arrow_down_float"
+                    android:visible="true"
+                    android:checkable="true"
+                    android:enabled="true" />
+            </menu>
+        </item>
+        <item
+                android:id="@+id/semester_gruppe"
+                android:title="Semester"
+                android:visible="true"
+                app:showAsAction="always|withText">
+            <menu >
+                <item
+                    android:id="@+id/semester1"
+                    android:title="1. semester"
+                    android:icon="@android:drawable/btn_radio"
+                    android:checkable="true"
+                    android:visible="true"
+                    android:enabled="true"
+                    android:checked="false" />
+                <item
+                    android:id="@+id/semester2"
+                    android:title="2. semester"
+                    android:icon="@android:drawable/btn_radio"
+                    android:checkable="true"
+                    android:visible="true"
+                    android:enabled="true"
+                    android:checked="false" />
+                <item
+                    android:id="@+id/semester_vis_alle"
+                    android:title="Vis alle"
+                    android:icon="@android:drawable/arrow_down_float"
+                    android:visible="true" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/institut_gruppe"
+            android:title="Institut"
+            android:visible="true"
+            app:showAsAction="always">
+            <menu>
+                <item
+                    android:id="@+id/institut1"
+                    android:title="Elektronik instituttet"
+                    android:icon="@android:drawable/btn_radio"
+                    android:checkable="true"
+                    android:visible="true"
+                    android:enabled="true"
+                    android:checked="false" />
+                <item
+                    android:id="@+id/institut2"
+                    android:title="IT instituttet"
+                    android:icon="@android:drawable/btn_radio"
+                    android:checkable="true"
+                    android:visible="true"
+                    android:enabled="true"
+                    android:checked="false" />
+                <item
+                    android:id="@+id/institut_vis_alle"
+                    android:title="Vis alle"
+                    android:icon="@android:drawable/arrow_down_float"
+                    android:visible="true" />
+            </menu>
+        </item>
+    </group>
+</menu>

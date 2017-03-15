@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">GHW</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+<string name="login_button">Login</string>
+<string name="nav_qa">QA</string>
+<string name="nav_profile">My Profile</string>
+<string name="nav_chat">Chats</string>
+<string name="nav_logout">Logout</string>
+<string name="don_t_have_account">Don\'t have account?</string>
+<string name="register_btn_txt">Register</string>
+<string name="enter_password">Enter Password</string>
+<string name="confirm_password">Confirm Password</string>
+<string name="enter_name">Enter Name</string>
+<string name="enter_email">Enter Email</string>
+<string name="dialog_title">Please fill to register</string>
+<string name="dialog_password_not_match">Passwords do not match</string>
+<string name="dialog_password_match">Passwords match</string>
+<string name="dialog_password_lenght">Password should be 6 characters minimum</string>
+<string name="dialog_empty_name">Please enter name</string>
+<string name="dialog_empty_email">Please enter email</string>
+<string name="dialog_incorrect_email">Please enter correct email</string>
+
+<string-array name="fagene">
+    <item>kursus 1</item>
+    <item>kursus 2</item>
+    <item>kursus 3</item>
+    <item>kursus 4</item>
+    <item>kursus 5</item>
+    <item>kursus 6</item>
+    <item>kursus 7</item>
+    <item>kursus 8</item>
+</string-array>
+
+<string-array name="semestrerne">
+    <item>1. semester</item>
+    <item>2. semester</item>
+    <item>3. semester</item>
+    <item>4. semester</item>
+    <item>5. semester</item>
+    <item>6. semester</item>
+    <item>7. semester</item>
+</string-array>
+
+<string-array name="institutterne">
+    <item>Institet 1</item>
+    <item>Institet 2</item>
+    <item>Institet 3</item>
+    <item>Institet 4</item>
+    <item>Institet 5</item>
+    <item>Institet 6</item>
+    <item>Institet 7</item>
+</string-array>
+</resources>
