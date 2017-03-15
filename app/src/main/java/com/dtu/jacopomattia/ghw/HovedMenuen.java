@@ -18,7 +18,7 @@ import android.view.MenuItem;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.Toast;
-
+// Test 1
 public class HovedMenuen extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
